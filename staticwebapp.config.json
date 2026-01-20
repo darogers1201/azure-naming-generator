@@ -1,0 +1,12 @@
+{
+    "navigationFallback": {
+        "rewrite": "/index.html"
+    },
+    "redirects": [
+        {
+            "route": "https://www.azurenaming.com/*",
+            "redirect": "https://azurenaming.com/:splat",
+            "statusCode": 301
+        }
+    ]
+}
